@@ -40,7 +40,7 @@ def main():
         # Loop out
         if cv2.waitKey(10) > 0:
             cap1.release()
-
+            cap2.release()
             cv2.destroyAllWindows()
             break
 
