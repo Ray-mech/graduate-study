@@ -1,1 +1,1 @@
-# stereocam_imagethresh
+# For graduate study
