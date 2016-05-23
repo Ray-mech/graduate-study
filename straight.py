@@ -18,7 +18,7 @@ def DrawNum(myWay,setWay,motor):
     cv2.imshow("distance",im)
     cv2.waitKey(1)
     
-#移動の軌跡を描画する関数--------------------------------------------------------
+#移動の軌跡・出力を描画する関数--------------------------------------------------------
 def DrawTrack(myWay,frame,motor,drawFlg):
 #    print(myWay)    
     plt.plot(frame, myWay, color="k",marker="o",markersize=10,label="distance")
@@ -95,7 +95,7 @@ def ClrWindow():
 
 #メイン関数---------------------------------------------------------------
 if __name__ == "__main__":
-    GoStraight(2)
+    GoStraight(2)  #←引数はサブゴールまでの距離
     ClrWindow()
     GoStraight(5)
     ClrWindow()
