@@ -1,5 +1,4 @@
 # -*- coding: utf-8 -*-
-#http://qiita.com/hausen6/items/b1b54f7325745ae43e47
 
 #インポート---------------------------------------------------------------
 from __future__ import unicode_literals, print_function
